@@ -11,11 +11,11 @@ def bubble_sort(arr, ascending=True):
 def main():
     arr = [random.randint(1, 100) for _ in range(20)]
     order = input("Enter 'asc' for ascending order or 'desc' for descending order: ")
-    if order == 'asc':
+    if order.lower() == 'asc':
         bubble_sort(arr, ascending=True)
         print("Sorted array:", arr)
     
-    elif order == 'desc':
+    elif order.lower() == 'desc':
         bubble_sort(arr, ascending=False)
         print("Sorted array:", arr)
     
