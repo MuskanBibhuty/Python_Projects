@@ -20,7 +20,7 @@ def main():
         print("Sorted array:", arr)
     
     else:
-        print("Invalid input. Please enter 'asc' or 'desc'.")
+        print("Invalid input. Please enter 'asc' or 'desc' for sorting the array.")
 
 
 if __name__ == "__main__":
